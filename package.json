@@ -1,0 +1,28 @@
+{
+  "name": "@aposphere/university-domains-list",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "mkdir -p dist && cp world_universities_and_domains.json dist/world_universities_and_domains.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aposphere/university-domains-list.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "author": "Cyrill Lippuner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aposphere/university-domains-list/issues"
+  },
+  "homepage": "https://github.com/aposphere/university-domains-list#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "files": [
+    "dist"
+  ]
+}
