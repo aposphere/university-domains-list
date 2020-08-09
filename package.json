@@ -1,6 +1,6 @@
 {
   "name": "@aposphere/university-domains-list",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "mkdir -p dist && cp world_universities_and_domains.json dist/world_universities_and_domains.json",
